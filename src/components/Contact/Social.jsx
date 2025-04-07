@@ -6,6 +6,7 @@ import {
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 import { SiLeetcode } from "react-icons/si";
+import { SiNetlify } from "react-icons/si";
 import './Social.css'
 
 const Social = () => {
@@ -39,6 +40,17 @@ const Social = () => {
                       className="icon-color  contact-social-icons"
                     >
                       <FaLinkedinIn />
+                    </a>
+                  </li>
+
+                  <li className="contact-icons">
+                    <a
+                      href="https://app.netlify.com/teams/kambleneha217/sites"
+                      target="_blank"
+                      rel="noreferrer"
+                      className="icon-color  contact-social-icons"
+                    >
+                       <SiNetlify />
                     </a>
                   </li>
                  

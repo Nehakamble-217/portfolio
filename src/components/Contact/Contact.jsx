@@ -51,6 +51,10 @@ const Contact = () => {
             <Col md={6} className="c-left" >
             <h1 >Get in Touch</h1>
             <h1 className="yellow">Contact me</h1>
+            {/* <h4>Neha kamble</h4> */}
+            <h3>+91 8329553011</h3>
+            <h5>kambleneha217@gmail.com</h5>
+
             </Col>
             <Col md={6} className="c-right">
                 <form ref={form} onSubmit={sendEmail}>
